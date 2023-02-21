@@ -16,3 +16,96 @@ body{
 /* core style */
 
 /* core style */
+.header{
+    background-image: url(../images/header-bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.nav ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    left: -100px;
+}
+.nav ul li a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #494949;
+    transition: all 0.3s ease;
+}
+.nav ul li a:hover{
+    color: #FF693A;
+}
+.sign-up button{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 13px 36px;
+    background: #201144;
+}
+.banner{
+    margin-top: 195px;
+    margin-bottom: 110px;
+    width: 579px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 81px;
+    color: #201144;
+    margin-bottom: 37px;
+}
+.banner-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #595959;
+    margin-bottom: 70px;
+}
+.banner-btn button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    background: #FF693A;
+    border: none;
+    margin-bottom: 115px;
+}
+/* Start statistics */
+.statistics-bg{
+    background: #201144;
+}
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0;
+    margin-bottom: 170px;
+}
+.stat-item__number{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 77px;
+    color: rgba(255, 107, 61, 0.85);
+}
+.stat-item__text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    color: #E2E2E2;
+}
